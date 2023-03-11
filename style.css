@@ -113,3 +113,16 @@ button a {
     border: 2px solid white;
     height: 50px;
 }
+
+h3 {
+    text-align: center;
+}
+
+.project-pictures {
+    width: 300px;
+}
+
+#flashcard-phone{
+    width: 200px;
+    height: 400px;
+}
