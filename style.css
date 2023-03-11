@@ -41,14 +41,10 @@ ul {
 }
 
 .header a {
-    text-decoration: none;
-    font-size: 18px;
-    
-    
+    font-size: 18px; 
 }
 
 
-.header a,
 .secondary-intro-text {
     color: #E5E7EB;
 }
@@ -71,7 +67,10 @@ ul {
 }
 
 button {
-    color: #3882F6;
+    background-color: #3882F6;
+    padding: 10px 35px;
+    border-radius: 10px;
+    
 }
 
 .link-box {
@@ -81,5 +80,36 @@ button {
     border-radius: 25px;
     padding: 32px;
     justify-content: space-around;
+    align-items: center;
     gap: 10px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    /* font-style: light italic; */
+    /* font-style: light italic; */
+    color: 1f2937;
+    padding: 50px 250px;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button a {
+    font-size: 20px;
+}
+
+.github-button {
+    border: 2px solid white;
+    height: 50px;
 }
