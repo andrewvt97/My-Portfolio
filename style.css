@@ -4,7 +4,7 @@ body {
     flex-direction: column;
 }
 
-.header {
+.header { /* header is the blue bar at the top of the page */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -13,32 +13,30 @@ body {
     gap: 130px;
 }
 
-.logo {
+.logo { /* logo is the image of Toronto skyline */
     margin-left:20px;
-}
-
-.header-links {
-    margin-right: -10px;
-}
-
-
-.header,
-.intro, 
-.footer {
-    background-color: #1f2937;
-    color: white;
-
-}
-
-.logo {
-    height: 100px;
+     height: 100px;
     width: 10%;
     padding: 5px;
     border-radius: 50%;
     
 }
 
-ul {
+.header-links { /* header links are the links in the blue bar */
+    margin-right: -10px;
+}
+
+
+.header,
+.intro, 
+.footer { /* assigning header, intro, and footer the same colors */
+    background-color: #1f2937;
+    color: white;
+
+}
+
+
+ul { /* ul are all the unordered lists including the links and the projects */
     display: flex;
     list-style: none;
     margin: 0;
@@ -46,46 +44,44 @@ ul {
     gap: 16px;
 }
 
-.header ul {
+.header ul { /* ul in the header */
     padding-right:40px;
 }
 
-.header a {
+.header a { /* links in the header */
     font-size: 18px; 
 }
 
 
-.secondary-intro-text {
+.secondary-intro-text { /* text under the title that welcomes the reader*/
     color: #E5E7EB;
     max-width: 400px;
+    margin-top: 0;
 }
 
-.intro {
+.intro { /* intro is the section that has the title and the Linkedin image*/
     display: flex;
     justify-content: center;
     padding: 10px 10px 25px;
     gap: 100px;
 }
 
-.title {
+.title { /* title is the name of the page - My Portfolio */
     color: #F9FAF8;
     font-size: 48px;
     font-weight: extra bold;
     margin-bottom: 0;
 }
 
-.secondary-intro-text{
-    margin-top: 0;
-}
 
-.intro-image {
+.intro-image { /* intro image is the Linkedin image of me */
     width: 35%;
     height: auto;
 }
 
 
 
-.linkedin-button, .github-button {
+.linkedin-button, .github-button { /* common button styles */
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
@@ -95,23 +91,23 @@ ul {
     font-size: 17px;
 }
 
-.project-header {
-    font-size: 36px;
+.project-header { /* header for the projects section */
+    font-size: 32px;
     text-align: center;
     font-weight: bolder;
     padding: 30px 20px 20px;
     margin: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.project-pictures {
+.project-pictures { /* pictures of the projects */
     border: 5px solid #3882F6;
     border-radius: 25px;
     width: 300px;
     height: 300px;
 }
 
-.project-description {
+.project-description { /* description of the projects */
     font-size: 18px;
     text-align: center;
     padding: 20px;
@@ -119,7 +115,7 @@ ul {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.project-section {
+.project-section { /* section that contains the projects */
     justify-content: center;
     padding: 20px 50px 50px;
 }
@@ -136,7 +132,7 @@ ul {
     /* gap: 10px; */
 }
 
-.quote{
+.about-me { /* about me section */
     background-color: #E5E7EB;
     font-size: 24px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -147,27 +143,23 @@ ul {
     
 }
 
-.footer{
+.footer{ /* footer is the section that has my name */
     display: flex;
     justify-content: center;
     align-items: center; 
 }
 
-a {
+a { /* links  style*/
     text-decoration: none;
     color: white;
 }
 
 
-.github-button {
+.github-button { /* github button specific style*/
     border: 2px solid white;
     padding: 8px 25px;
     
 }
-
-
-
-
 
 .link-header { /* header for the blue box */
     font-size: 20px;
@@ -184,8 +176,8 @@ a {
 }
 
 
-
-#flashcard-phone{
+#flashcard-phone 
+{
     width: 200px;
     height: 300px;
 }
