@@ -73,24 +73,29 @@ button {
     
 }
 
-.link-box {
+.link-box { /* blue box that has github link button */
     background-color: #3882F6;
     display: flex;
-    margin: 35px 70px;
-    border-radius: 25px;
+    border-radius: 5px;
+    margin: 50px 200px;
     padding: 32px;
     justify-content: space-around;
     align-items: center;
-    gap: 10px;
+    color: white;
+    /* gap: 10px; */
 }
 
 .quote{
     background-color: #E5E7EB;
-    font-size: 36px;
+    font-size: 24px;
     /* font-style: light italic; */
     /* font-style: light italic; */
+    /* font-style: light italic; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
     color: 1f2937;
     padding: 50px 250px;
+    /* margin: 50px; */
     
 }
 
@@ -120,9 +125,31 @@ h3 {
 
 .project-pictures {
     width: 300px;
+    height: 300px;
 }
+
+.project-section {
+    justify-content: center;
+    padding: 50px;
+}
+
+.link-header { /* header for the blue box */
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2px;
+}
+
+.link-directions{   /* directions for the blue box */
+    padding: 0;
+    margin: 0;
+    font-size: 14px; 
+}
+
+
 
 #flashcard-phone{
     width: 200px;
-    height: 400px;
+    height: 300px;
 }
