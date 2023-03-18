@@ -103,8 +103,11 @@ ul { /* ul are all the unordered lists including the links and the projects */
 .project-pictures { /* pictures of the projects */
     border: 5px solid #3882F6;
     border-radius: 25px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .project-description { /* description of the projects */
@@ -178,6 +181,6 @@ a { /* links  style*/
 
 #flashcard-phone 
 {
-    width: 200px;
-    height: 300px;
+    width: 130px;
+    height: 200px;
 }
